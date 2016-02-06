@@ -1,0 +1,13 @@
+{
+  "apps": [{
+    "name": "SaveNGet",
+    "script": "app.js",
+    "watch": false,
+    "instances": 0,
+    "exec_mode": "cluster",
+    "max_memory_restart": "1G"
+  }, {
+    "name": "FileCleanup",
+    "script": "fileCleanupApp.js"
+  }]
+}

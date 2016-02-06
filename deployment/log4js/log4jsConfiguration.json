@@ -1,0 +1,9 @@
+{
+  "appenders": [
+    { "type": "console" }
+  ],
+  "replaceConsole": false,
+  "levels": {
+        "[all]": "TRACE"
+    }
+}

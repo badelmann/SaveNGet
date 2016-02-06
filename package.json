@@ -10,9 +10,9 @@
     }
   ],
   "scripts": {
-    "start": "node app.js"
+    "start": "node start app.js && node start fileCleanupApp.js"
   },
-  "main": "lib/foo.js",
+  "main": "app.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/badelmann/SaveNGet"
@@ -23,8 +23,13 @@
   "dependencies": {
     "body-parser": "*",
     "express": "*",
-    "compression":"*",
-    "apidoc":"*"
+    "compression": "*",
+    "apidoc": "*",
+    "log4js": "*"
   },
-  "private": true
+  "private": true,
+  "apidoc": {
+    "title": "SaveNGet Documentation",
+    "url" : "https://savenget.benadelmann.com"
+  }
 }
