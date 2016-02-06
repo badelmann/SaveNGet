@@ -21,7 +21,10 @@
     "url": "https://github.com/badelmann/SaveNGet/issues"
   },
   "dependencies": {
-    "express": "^4.13.4"
+    "body-parser": "*",
+    "express": "*",
+    "compression":"*",
+    "apidoc":"*"
   },
   "private": true
 }
