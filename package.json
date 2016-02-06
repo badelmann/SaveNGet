@@ -1,0 +1,27 @@
+{
+  "name": "module-name",
+  "version": "0.0.1",
+  "description": "Webservice that will save picture to user folders",
+  "author": "Ben Adelmann <b.adelmann@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ben Adelmann",
+      "email": "b.adelmann@gmail.com"
+    }
+  ],
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "lib/foo.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badelmann/SaveNGet"
+  },
+  "bugs": {
+    "url": "https://github.com/badelmann/SaveNGet/issues"
+  },
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "private": true
+}
